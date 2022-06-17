@@ -30,9 +30,9 @@ function getTime() {
 
 function getDate() {
   const date = new Date();
-  const year = date.getFullYear(); //0-23시
-  const month = date.getMonth()+1; //0-59분
-  const day = date.getDate(); //0-59초
+  const year = date.getFullYear(); 
+  const month = date.getMonth()+1; 
+  const day = date.getDate(); 
   const dayNumber = date.getDay();
   const dayList = ["일","월","화","수","목","금","토"]
   const daylabel=(dayList[date.getDay()]+'요일');
